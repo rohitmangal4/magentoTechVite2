@@ -70,19 +70,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Services */}
-          {/* <div>
-            <h3 className="text-lg font-semibold mb-4">Services</h3>
-            <ul className="space-y-2 text-gray-300">
-              <li>Magento 2 Development</li>
-              <li>Shopify Development</li>
-              <li>Adobe Commerce</li>
-              <li>Custom Extensions</li>
-              <li>SEO Configuration</li>
-              <li>eCommerce Consulting</li>
-            </ul>
-          </div> */}
-
           <div className="space-y-2">
             <div className="flex items-center space-x-2 text-gray-300">
               <Mail className="w-4 h-4" />
@@ -90,11 +77,15 @@ const Footer = () => {
             </div>
             <div className="flex items-center space-x-2 text-gray-300">
               <Phone className="w-4 h-4" />
-              <span>+1 (555) 123-4567</span>
+              <span>+1 (530) 632-2681</span>
             </div>
             <div className="flex items-center space-x-2 text-gray-300">
               <MapPin className="w-4 h-4" />
-              <span>New York, NY 10001</span>
+              <span>
+                178 Edgewater Way,
+                <br />
+                Yuba City, CA 95991
+              </span>
             </div>
           </div>
         </div>

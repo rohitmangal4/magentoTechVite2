@@ -9,10 +9,12 @@ import ServiceDetail from './pages/ServiceDetail.jsx';
 import Projects from './pages/Projects.jsx';
 import ProjectDetail from './pages/ProjectDetail.jsx';
 import Contact from './pages/Contact.jsx';
+import ScrollToTop from './components/ScrollOnTop.jsx';
 
 function App() {
   return (
     <div className="min-h-screen bg-white">
+      <ScrollToTop/>
       <Header />
       <main>
         <Routes>

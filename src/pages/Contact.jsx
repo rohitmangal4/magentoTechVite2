@@ -400,13 +400,13 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6 text-orange-500" />,
       title: "Call Us",
-      details: "+1 (555) 123-4567",
+      details: "+1 (530) 632-2681",
       description: "Mon-Fri from 8am to 5pm",
     },
     {
       icon: <MapPin className="w-6 h-6 text-orange-500" />,
       title: "Visit Us",
-      details: "123 Tech Street, New York, NY 10001",
+      details: "178 Edgewater Way, Yuba City, CA 95991",
       description: "Come say hello at our office",
     },
     {
@@ -726,21 +726,22 @@ const Contact = () => {
               Visit Our Office
             </h2>
             <p className="text-xl text-gray-600">
-              Located in the heart of New York City, we welcome clients to visit
-              our office.
+              Located in the heart of Yuba City, we welcome clients to visit our
+              office.
             </p>
           </div>
 
-          <div className="bg-gray-300 rounded-2xl h-96 flex items-center justify-center">
-            <div className="text-center">
-              <MapPin className="w-12 h-12 text-gray-500 mx-auto mb-4" />
-              <p className="text-gray-600">
-                Interactive map would be integrated here
-              </p>
-              <p className="text-sm text-gray-500 mt-2">
-                123 Tech Street, New York, NY 10001
-              </p>
-            </div>
+          <div className="bg-gray-300 rounded-2xl overflow-hidden h-96">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3094.0246535039976!2d-121.63735082438479!3d39.14249123324333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809b76bc65fa7371%3A0xe857b833f3176ae2!2s178%20Edgewater%20Way%2C%20Yuba%20City%2C%20CA%2095991%2C%20USA!5e0!3m2!1sen!2sin!4v1719772078833!5m2!1sen!2sin"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="NeuronTechAi Yuba City Office Location"
+            ></iframe>
           </div>
         </div>
       </section>
